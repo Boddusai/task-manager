@@ -26,7 +26,7 @@ function App() {
 
   const fetchTasks = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:8000/tasks");
+      const response = await fetch("https://task-manager-api-o4km.onrender.com/tasks");
 
       if (!response.ok) {
         throw new Error("Failed to fetch tasks");
@@ -57,7 +57,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/tasks",
+        "https://task-manager-api-o4km.onrender.com/tasks",
         {
           method: "POST",
 
@@ -111,7 +111,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/tasks/${editingId}`,
+        `https://task-manager-api-o4km.onrender.com/tasks/${editingId}`,
         {
           method: "PATCH",
 
@@ -155,7 +155,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/tasks/${task.id}`,
+        `https://task-manager-api-o4km.onrender.com/tasks/${task.id}`,
         {
           method: "PATCH",
 
@@ -197,7 +197,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/tasks/${id}`,
+        `https://task-manager-api-o4km.onrender.com/tasks/${id}`,
         {
           method: "DELETE",
         }
