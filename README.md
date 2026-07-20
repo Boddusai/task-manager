@@ -1,30 +1,37 @@
 # Full Stack Task Manager
 
-A full-stack task management application built with:
+## Live Demo
 
-- React
-- FastAPI
-- SQLite
+Frontend:
+https://task-manager-5ojq-42p6701t5-saipavan1.vercel.app/
+
+Backend API:
+https://task-manager-api-o4km.onrender.com/docs
 
 ## Features
 
-- Create tasks
-- Edit tasks
-- Delete tasks
-- Mark tasks as completed
-- Search tasks
-- Filter tasks
+- Create Tasks
+- Edit Tasks
+- Delete Tasks
+- Complete Tasks
+- Search Tasks
+- Filter Tasks
 - Responsive UI
+- Toast Notifications
 
 ## Tech Stack
 
-Frontend:
+Frontend
 - React
 - JavaScript
 - CSS
 - React Toastify
 
-Backend:
+Backend
 - FastAPI
 - SQLModel
 - SQLite
+
+Deployment
+- Vercel
+- Render

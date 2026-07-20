@@ -18,7 +18,8 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173",
+    "https://task-manager-5ojq-42p6701t5-saipavan1.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
